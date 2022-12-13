@@ -1,6 +1,8 @@
 mod day1;
 mod day10;
 mod day11;
+mod day12;
+mod day13;
 mod day2;
 mod day3;
 mod day4;
@@ -42,6 +44,10 @@ fn main() {
         ("10b", day10::part_b as VoidFunc),
         ("11a", day11::part_a as VoidFunc),
         ("11b", day11::part_b as VoidFunc),
+        ("12a", day12::part_a as VoidFunc),
+        ("12b", day12::part_b as VoidFunc),
+        ("13a", day13::part_a as VoidFunc),
+        ("13b", day13::part_b as VoidFunc),
     ]);
     let func = days
         .get(cmd)
